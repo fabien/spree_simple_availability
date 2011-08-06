@@ -1,0 +1,13 @@
+--- 
+nl:
+  in_stock_status: "In stock message"
+  out_of_stock_status: "Out of stock message"
+  simple_availability:
+    in_stock:
+      - 'Direct leverbaar'
+      - '1-3 dagen levertijd'
+      - '4-7 dagen levertijd'
+    out_of_stock:
+      - 'Tijdelijk niet op voorraad'
+      - 'Binnenkort beschikbaar'
+      - 'Op bestelling, levertijd varieert'

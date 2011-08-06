@@ -1,0 +1,13 @@
+--- 
+en:
+  in_stock_status: "In stock message"
+  out_of_stock_status: "Out of stock message"
+  simple_availability:
+    in_stock:
+      - 'In stock'
+      - 'In stock, usually ships in 1 to 3 days'
+      - 'In stock, usually ships in 4 to 7 days'
+    out_of_stock:
+      - 'Temporarily out of stock'
+      - 'Temporarily out of stock, restocking is expected shortly'
+      - 'Special order, arrival dates may vary'

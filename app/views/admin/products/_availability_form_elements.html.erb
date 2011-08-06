@@ -1,0 +1,10 @@
+<% if Spree::Config[:track_inventory_levels] %>
+<p>
+  <%= f.label :in_stock_status, t("in_stock_status") %><br />
+  <%= f.select('in_stock_status', Product.in_stock_options, {}, { :style => 'width: 200px' }) %>
+</p>
+<p>
+  <%= f.label :out_of_stock_status, t("out_of_stock_status") %><br />
+  <%= f.select('out_of_stock_status', Product.out_of_stock_options, {}, { :style => 'width: 200px' }) %>
+</p>
+<% end %>
