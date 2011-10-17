@@ -1,5 +1,4 @@
 require 'spree_core'
-require 'spree_simple_availability_hooks'
 
 module SpreeSimpleAvailability
   class Engine < Rails::Engine
