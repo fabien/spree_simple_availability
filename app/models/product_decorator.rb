@@ -1,4 +1,6 @@
-Product.class_eval do
+Spree::Product.class_eval do
+  
+  attr_accessible :in_stock_status, :out_of_stock_status
   
   scope :descend_by_availability, {
     :select => "products.*, IF(products.count_on_hand > 0, in_stock_status, out_of_stock_status + 100) AS prod_av",
